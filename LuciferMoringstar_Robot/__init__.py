@@ -27,11 +27,11 @@ Bot Owner Only
 
 """
 
-ABOUT = """
-➥ Name :  Auto Filter V3
+🤴𝐀𝐛𝐨𝐮𝐭🤴 = """
+
+ ○ ᴍʏ ɴᴀᴍᴇ : സണ്ണി ചേച്ചി
     
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+ ○ᴄʀᴇᴀᴛᴏʀ  : sulthanmr
 
 ➥ Language : Python3
 
