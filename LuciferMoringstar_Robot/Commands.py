@@ -45,7 +45,7 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**Hello Bro മൂവികിട്ടാത്തത് താഴെ കാണുന്ന നമ്മുടെ 𝙐𝙥𝙙𝙖𝙩𝙚 ചാനൽ Join ചെയുക!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
