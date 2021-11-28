@@ -327,7 +327,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             filedetails = await get_file_details(file_id)
             for files in filedetails:
                 title = files.file_name
-                size=🎯files.file_size
+                size=files.🎯file_size
                 f_caption=files.caption
                 if CUSTOM_FILE_CAPTION:
                     try:
