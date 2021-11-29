@@ -49,10 +49,10 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 𝙅𝙤𝙞𝙣 𝙈𝙖𝙞𝘾𝙝𝙖𝙣𝙣𝙚𝙡 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("⚜️ 𝙅𝙤𝙞𝙣 𝙈𝙖𝙞𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ⚜️", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄 𝑻𝒓𝒚 𝑨𝒈𝒂𝒊𝒏", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚡️ 𝙅𝙤𝙞𝙣 𝙈𝙖𝙞 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ⚡️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('⚡️ 𝙅𝙤𝙞𝙣 𝙈𝙖𝙞𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ⚡️', url=f'{TUTORIAL}')
                     ]
                     ]
                 await bot.send_cached_media(
