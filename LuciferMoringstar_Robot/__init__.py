@@ -10,9 +10,8 @@ from .Channel import (
    GENRES
 )
 
-HELP = """
-നീ ഏതാടെ അവൻ help ചോദിച്ചു വന്നിരിക്കുന്നു വല്ലതും ഉണ്ടങ്കിൽ groupil ചോദിച്ചോ 
-
+Group = """
+@MR_ChatGrp
 
 
 """
