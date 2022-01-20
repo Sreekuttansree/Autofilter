@@ -10,7 +10,7 @@ from .Channel import (
    GENRES
 )
 
-Group = """https://t.me/MR_ChatGrp
+HELP = """https://t.me/MR_ChatGrp
 
 
 """
