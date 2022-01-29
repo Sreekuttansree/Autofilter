@@ -116,7 +116,7 @@ async def group(client, message):
         btn = []
         search = message.text
         mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**" 
-nyva=BOT.get("username")
+        nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
             nyva=botusername.username
