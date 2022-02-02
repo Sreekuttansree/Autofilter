@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚡️ 𝙅𝙤𝙞𝙣 𝙈𝙖𝙞𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ⚡️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🧧𝐍𝐄𝐖 𝐎𝐓𝐓 𝐌𝐎𝐕𝐈𝐄🧧', url=f'{TUTORIAL}')
                     ]
                     ]
                 await bot.send_cached_media(
