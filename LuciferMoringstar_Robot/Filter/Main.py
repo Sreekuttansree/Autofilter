@@ -125,7 +125,7 @@ async def group(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"🎯[{get_size(file.file_size)}] {file.file_name}"
+                filename = f"🇮🇳[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
                 )
@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚡️ 𝗝𝗼𝗶𝗻 𝗠𝗮𝗶𝗻𝗖𝗵𝗮𝗻𝗻𝗲𝗹  ⚡️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🎯𝐍𝐄𝐖 𝐎𝐓𝐓 𝐌𝐎𝐕𝐈𝐄🎯', url=f'{TUTORIAL}')
                     ]
                     ]
                 
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚡️ 𝗝𝗼𝗶𝗻 𝗠𝗮𝗶𝗻𝗖𝗵𝗮𝗻𝗻𝗲𝗹  ⚡️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🎯𝐍𝐄𝐖 𝐎𝐓𝐓 𝐌𝐎𝐕𝐈𝐄🎯', url=f'{TUTORIAL}')
                     ]
                     ]
                 
